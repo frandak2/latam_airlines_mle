@@ -2,20 +2,18 @@
 
 ## Prerequisites
 
-- [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/download.html)
-- Optional [Mamba](https://mamba.readthedocs.io/en/latest/)
+- [Poetry](https://python-poetry.org/docs/#installation.)
+- Optional [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/download.html)
 
 ## Create environment
 
 ```bash
-conda env create -f environment.yml
-activate latam_airlines_mle
+poetry install
 ```
-
-or 
+or
 
 ```bash
-mamba env create -f environment.yml
+conda env create -f environment.yml
 activate latam_airlines_mle
 ```
 

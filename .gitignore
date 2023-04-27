@@ -2,7 +2,8 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+.DS_Store
+.pytest_cache
 # C extensions
 *.so
 
@@ -62,7 +63,9 @@ target/
 .python-version
 
 # exclude data from source control by default
-#/data/
-
+# /data/
+# /models/
+*.csv
+*.pkl
 # ipynb checkpoints
 .ipynb_checkpoints
