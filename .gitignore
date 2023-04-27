@@ -66,6 +66,6 @@ target/
 # /data/
 # /models/
 *.csv
-*.pkl
+# *.pkl
 # ipynb checkpoints
 .ipynb_checkpoints
