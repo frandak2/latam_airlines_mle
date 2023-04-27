@@ -1,0 +1,34 @@
+# conda env create --file environment.yml
+# mamba env create --file environment.yml
+name: latam_airlines_mle
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - black
+  - invoke
+  - jupyter
+  - jupyterlab
+  - keras
+  - lightgbm
+  - matplotlib
+  - missingno
+  - nbdime
+  - numpy
+  - pandas
+  - pandas-flavor
+  - pandas-profiling
+  - pip
+  - plotly
+  - pyjanitor
+  - pylint
+  - pyprojroot
+  - pyspark
+  - python=3.9
+  - python-dotenv
+  - scikit-learn
+  - seaborn
+  - statsmodels
+  - tensorflow
+  
