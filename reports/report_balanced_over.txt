@@ -1,0 +1,21 @@
+# Model Pipeline Description
+### preprocessor:ColumnTransformer(transformers=[('num', StandardScaler(with_mean=False),
+                                 ['DIA', 'MES', 'HORA', 'MIN',
+                                  'temporada_alta']),
+                                ('cat-nominal', OneHotEncoder(),
+                                 ['periodo_dia', 'DIANOM', 'Des_I', 'TIPOVUELO',
+                                  'OPERA'])])
+### model:RandomForestClassifier(random_state=42)
+### Train Score: 0.998287869064173
+### Test Score: nan
+### Validation Score: 0.8406432255672049
+### Reporte:
+               precision    recall  f1-score   support
+
+           0       0.86      0.85      0.86     16691
+           1       0.81      0.83      0.82     12972
+
+    accuracy                           0.84     29663
+   macro avg       0.84      0.84      0.84     29663
+weighted avg       0.84      0.84      0.84     29663
+
